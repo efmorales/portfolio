@@ -6,7 +6,7 @@ import ProjectCard from "../components/ProjectCard";
 
 function Home() {
   return (
-    <div className="flex flex-col p-5">
+    <div className="flex flex-col">
         <Navbar />
         <Hero />
         <ProjectCard />
