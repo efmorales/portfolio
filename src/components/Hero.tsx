@@ -15,7 +15,7 @@ function Hero() {
       </div>
 
       <div className="flex-col basis-4/12 mx-8 content-center">
-        <h1 className="text-white text-3xl mb-2">Hey, nice to meet you!</h1>
+        <h1 className="text-white text-4xl mb-2">Hey, nice to meet you!</h1>
         <p className="font-light text-slate-300">I'm Enzo Morales, welcome to the vibrant digital gateway showcasing the innovative world of a passionate Junior Full-Stack MERN Developer. The hero section of this personal portfolio is a striking symphony of functionality and aesthetic appeal, designed to captivate and inform from the first glance.</p>
 
         <div className="flex flex-row mt-4 justify-around sm:mt-8 sm:justify-center sm:gap-10">
