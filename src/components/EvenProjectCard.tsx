@@ -15,12 +15,12 @@ const EvenProjectCard: React.FC<EvenProjectCardProps> = ({ title, description, p
     <div
       className="flex flex-col h-auto bg-[#00343C] py-4 sm:flex-row sm:py-8">
       <div
-        className="flex flex-col sm:size-6/12 sm:order-1">
+        className="flex flex-col sm:size-6/12 sm:order-1 sm:ml-12">
         <h1
           className="text-[#00E1C9] text-5xl font-semibold text-center my-8 sm:text-left sm:px-12">
           {title}</h1>
         <div
-          className="flex justify-center gap-8 mb-4 mx-4 sm:justify-start sm:mx-12">
+          className="flex justify-center flex-wrap gap-6 mb-4 mx-4 sm:justify-start sm:mx-12">
           {iconSrcArray.map((src, index) => (
             <img key={src} src={src} alt={iconAltArray[index]} />
 
@@ -32,7 +32,7 @@ const EvenProjectCard: React.FC<EvenProjectCardProps> = ({ title, description, p
       </div>
 
       <div
-        className="flex justify-center self-center sm:size-6/12 sm:order-2">
+        className="flex justify-center self-center sm:size-6/12 sm:order-2 sm:mr-12">
         <a href={projectUrl} target="_blank">
           <img src={projectSrc} alt="Project preview"
             className="w-96 hover:scale-110 transition duration-700 sm:w-[32rem]" />

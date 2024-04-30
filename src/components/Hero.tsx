@@ -14,9 +14,9 @@ function Hero() {
           alt="Teal Ellipse" />
       </div>
 
-      <div className="flex-col basis-4/12 mx-8 content-center">
+      <div className="flex-col basis-4/12 mx-8 content-center sm:mr-48">
         <h1 className="text-white text-4xl mb-2">Hey, nice to meet you!</h1>
-        <p className="font-light text-slate-300">I'm Enzo Morales, welcome to the vibrant digital gateway showcasing the innovative world of a passionate Junior Full-Stack MERN Developer. The hero section of this personal portfolio is a striking symphony of functionality and aesthetic appeal, designed to captivate and inform from the first glance.</p>
+        <p className="font-light text-slate-300">I'm Enzo Morales, a FullStack Web Developer & Anthropologist based in Brooklyn, NY. With 5+ years of experience in Software Development, I strive to keep creating digital services that are human-centered, combining my Software Engineering skills with my Qualitative Research ones.</p>
 
         <div className="flex flex-row mt-4 justify-around sm:mt-8 sm:justify-center sm:gap-10">
           <a href="https://github.com/efmorales" target="_blank" className=" text-white hover:text-pink-400">

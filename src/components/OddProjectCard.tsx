@@ -20,7 +20,7 @@ const OddProjectCard: React.FC<OddProjectCardProps> = ({ title, description, pro
           className="text-pink-500 text-5xl font-semibold text-center my-8 sm:text-left sm:px-12">
           {title}</h1>
         <div
-          className="flex justify-center gap-8 mb-4 mx-4 sm:justify-start sm:mx-12">
+          className="flex justify-center gap-8 mb-4 mx-4 flex-wrap sm:justify-start sm:mx-12">
           {iconSrcArray.map((src, index) => (
             <img key={src} src={src} alt={iconAltArray[index]} />
 
