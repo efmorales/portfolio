@@ -4,13 +4,13 @@ function Hero() {
 
       <div className="mb-4 basis-8/12 h-auto flex justify-center sm:mb-0">
         <img className="relative z-30 w-52 h-52 rounded-full transition hover:scale-110 duration-700 -right-12 sm:-right-12 sm:w-72 sm:h-72 sm:ml-20"
-          src="src/assets/webProfile.png"
+          src="/assets/webProfile.png"
           alt="Profile Pic" />
         <img className="relative z-50 w-16 h-16 rounded-full -bottom-36 transition hover:scale-125 duration-700 sm:w-32 sm:h-32 sm:-left-16 sm:-bottom-36"
-          src="src/assets/salmonEllipse.svg"
+          src="/assets/salmonEllipse.svg"
           alt="Salmon Ellipse" />
         <img className="relative z-40 w-24 h-24 rounded-full -left-12 -bottom-16 transition hover:scale-125 duration-700 sm:w-40 sm:h-40 sm:-left-28 sm:-bottom-14"
-          src="src/assets/tealEllipse.svg"
+          src="/assets/tealEllipse.svg"
           alt="Teal Ellipse" />
       </div>
 

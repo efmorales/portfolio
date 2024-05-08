@@ -8,8 +8,8 @@ const firstProject: { title: string; description: string; url: string; src: stri
   title: "Philosofinder AI",
   description: "Philosofinder is a FullStack MERN Web App, hosted in AWS. Its objective is to help find its users the diverse philosophies they might have a deep connection with the help of an AI assisted quiz. Powered by OpenAI’s GPT 4.0.",
   url: "https://philosophy.enzomorales.net",
-  src: "/src/assets/pfWindow.png",
-  iconSrcArray: ["/src/assets/reactIcon.svg", "/src/assets/nodeIcon.svg", "/src/assets/awsIcon.svg", "/src/assets/mdbIcon.svg"],
+  src: "/assets/pfWindow.png",
+  iconSrcArray: ["/assets/reactIcon.svg", "/assets/nodeIcon.svg", "/assets/awsIcon.svg", "/assets/mdbIcon.svg"],
   iconAltArray: ["React icon", "Node icon", "AWS icon", "MongoDB icon"],
 };
 
@@ -17,8 +17,8 @@ const secondProject: { title: string; description: string; url: string; src: str
   title: "React Portfolio",
   description: "This project is a React TypeScript Web App, stylized with Tailwind CSS and hosted in AWS.",
   url: "https://enzomorales.net",
-  src: "/src/assets/rpPreview.png",
-  iconSrcArray: ["/src/assets/reactIconWhite.svg", "/src/assets/nodeIconWhite.svg", "/src/assets/tsIconWhite.svg", "/src/assets/twIconWhite.svg", "/src/assets/awsIconWhite.svg"],
+  src: "/assets/rpPreview.png",
+  iconSrcArray: ["/assets/reactIconWhite.svg", "/assets/nodeIconWhite.svg", "/assets/tsIconWhite.svg", "/assets/twIconWhite.svg", "/assets/awsIconWhite.svg"],
   iconAltArray: ["React icon", "Node icon", "TypeScript icon", "Tailwind icon", "AWS icon"],
 }
 
@@ -58,7 +58,7 @@ function Home() {
         <OddProjectCard title={firstProject.title} description={firstProject.description} projectUrl={firstProject.url} projectSrc={firstProject.src} iconSrcArray={firstProject.iconSrcArray} iconAltArray={firstProject.iconAltArray} />
 
         <EvenProjectCard title={secondProject.title} description={secondProject.description} projectUrl={secondProject.url} projectSrc={secondProject.src} iconSrcArray={secondProject.iconSrcArray} iconAltArray={secondProject.iconAltArray} />
-        
+
       </div>
       <Footer />
 
