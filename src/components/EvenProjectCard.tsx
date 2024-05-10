@@ -17,17 +17,17 @@ const EvenProjectCard: React.FC<EvenProjectCardProps> = ({ title, description, p
       <div
         className="flex flex-col sm:size-6/12 sm:order-1 sm:ml-12">
         <h1
-          className="text-[#00E1C9] text-5xl font-semibold text-center my-8 sm:text-left sm:px-12">
+          className="text-[#00E1C9] text-5xl font-semibold text-center my-8 mx-4 sm:text-left sm:px-12 sm:mx-0">
           {title}</h1>
         <div
-          className="flex justify-center flex-wrap gap-6 mb-4 mx-4 sm:justify-start sm:mx-12">
+          className="flex justify-center flex-wrap gap-6 gap-y-0 mb-4 mx-4 sm:justify-start sm:mx-12">
           {iconSrcArray.map((src, index) => (
             <img key={src} src={src} alt={iconAltArray[index]} />
 
           ))}
         </div>
         <p
-          className="text-slate-200 px-4 mb-8 sm:px-12">
+          className="text-slate-200 px-6 mb-8 sm:px-12">
           {description} </p>
       </div>
 
