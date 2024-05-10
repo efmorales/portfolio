@@ -31,8 +31,18 @@ const Navbar: React.FC<NavbarProps> = ({ scrollToHero, scrollToProjects }) => {
         </button>
         {isOpen && (
           <div className="absolute left-0 z-50 bg-[#00948D] w-full flex flex-col items-center py-2">
-            <button onClick={scrollToHero} className="text-white hover:bg-emerald-500 px-28 py-2 rounded-md transition-colors duration-300">About</button>
-            <button onClick={scrollToProjects} className="text-white hover:bg-emerald-500 px-28 py-2 rounded-md transition-colors duration-300">Projects</button>
+            <button
+              onClick={(event) => {
+                scrollToHero(event);
+                setIsOpen(false);
+              }}
+              className="text-white hover:bg-emerald-500 px-28 py-2 rounded-md transition-colors duration-300">About</button>
+            <button
+              onClick={(event) => {
+                scrollToProjects(event);
+                setIsOpen(false);
+              }}
+              className="text-white hover:bg-emerald-500 px-28 py-2 rounded-md transition-colors duration-300">Projects</button>
 
           </div>
         )}
